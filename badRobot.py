@@ -47,7 +47,7 @@ def greeting(sentence):
 
 
 # Generating response
-def response(user_response):
+def response(user_respyoonse):
     robo_response=''
     sent_tokens.append(user_response)
     TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
